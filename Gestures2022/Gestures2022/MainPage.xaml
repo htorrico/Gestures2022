@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestures2022.MainPage">
+
+    <StackLayout>
+        <Image Source="tapped.jpg" HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" x:Name="image1" ></Image>
+        <Label x:Name="labelMessage"></Label>
+        <Button x:Name="btnSave" Text="Save"></Button>
+    </StackLayout>
+
+</ContentPage>
